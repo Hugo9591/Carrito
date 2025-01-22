@@ -21,7 +21,7 @@ aun se recarge la pagina
   -custom.css (Estilos personalizados)
 -JavaScript( Para manejar la funcion del carrito de compras y almacenamiento en el localstorage)
 
-## Instalaion
+## Instalacion
 1 Clona el Repositorio
   git clone https://github.com/Hugo9591/Carrito.git
   
