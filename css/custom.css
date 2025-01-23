@@ -25,12 +25,18 @@ header {
         text-align: left;
     }
 }
+.tarjetaCarrito .borrar-curso{
+    opacity: 0;
+}
+.tarjetaCarrito:hover .borrar-curso{
+    opacity: 1;
+}
 .borrar-curso {
     /* background-color: rgb(0, 0, 0); */
     /* border-radius: 50%; */
     padding: 0px 4px;
     text-decoration: none;
-    color: rgb(207, 207, 207);
+    color: rgb(163, 163, 163);
     /* font-weight: bold; */
     /* display: flex;
     justify-content: center; */

@@ -40,13 +40,13 @@ function agregarCurso(e){
     
     // console.log('Agregando Curso');
     if(e.target.classList.contains('agregar-carrito')){
-        //Obtener targeta
+        //Obtener tarjeta
         const curso = e.target.parentElement.parentElement;
-        // leer datos de la targeta
+        // leer datos de la tarjeta
         leerDatos(curso);
     }
 }
-//Obtener datos de la targeta
+//Obtener datos de la tarjeta
 function leerDatos(curso){
     const infoCurso = {
         imagen: curso.querySelector('img').src,
@@ -109,6 +109,7 @@ function carritoHTML(){
             <td>
                 <a href='#' class='borrar-curso' data-id='${id}'>x
             </td>`;
+            row.classList.add('tarjetaCarrito');
             contenedorCarrito.appendChild(row);
     });
 
@@ -134,7 +135,7 @@ function eliminarCurso(e){
 
 }
 
-//Limpiar carrito de targetas anteriores
+//Limpiar carrito de tarjetas anteriores
 function vaciarCarrito(){
 
     cantidadPagar = 0;
