@@ -6,26 +6,26 @@ asi como el total del precio de todos los prodcutos seleccionados, los datos se 
 aun se recarge la pagina
 
 ## Caracteristicas
--Agregar productos al Carrito.
--Eliminar productos del Carrito.
--Motrar el total de productos en el carrito.
--Si un producto se agrega varias veces se muestra un contador con el total del producto.
--Los adtos del producto se guardan en el LocalStorage.
--Diseño Responsive usando mediaqueries.
+- Agregar productos al Carrito.
+- Eliminar productos del Carrito.
+- Motrar el total de productos en el carrito.
+- Si un producto se agrega varias veces se muestra un contador con el total del producto.
+- Los adtos del producto se guardan en el LocalStorage.
+- Diseño Responsive usando mediaqueries.
 
 ## Tecnologias
--HTML
--Css
-  -'normalize.css'
-  -'skeleton.css'
-  -custom.css (Estilos personalizados)
--JavaScript( Para manejar la funcion del carrito de compras y almacenamiento en el localstorage)
+- HTML
+- Css
+  - 'normalize.css'
+  - 'skeleton.css'
+  - custom.css (Estilos personalizados)
+- JavaScript( Para manejar la funcion del carrito de compras y almacenamiento en el localstorage)
 
 ## Instalacion
-1 Clona el Repositorio
+1. Clona el Repositorio
   git clone https://github.com/Hugo9591/Carrito.git
   
-2 Abrir el archivo 'index.html'
+2. Abrir el archivo 'index.html'
 
 ## Uso
 1. Agrega productos al carrito haciendo click en 'Agregar al Carrito'
